@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "poppins", sans-serif;
+    width: 1200px;
+    height: 114px;
+    left: 375px;
+}
+
+/* header css */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 20px;
+    padding: 40px;
+    background-color: #FEFCFB;
+    width: 1200px;
+    height: 114px;
+    left: 375px;
+
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-inline: center;
+}
+
+.login {
+    color: #FD8D3A;
+}
+
+ul li .login a:hover {
+    border: 1px solid blue;
+    outline-color: blue;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.cta-button {
+    display: inline-block;
+
+    background-color: #FA7436;
+    color: #fff;
+    padding: 16px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+
+/* content css */
+
+
+.content {
+    width: 100%;
+    margin: 20px;
+    padding: 50px;
+
+    background-color: #FEFCFB;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.hero-content {
+    margin-bottom: 20px;
+    width: 521px;
+    height: 586px;
+    top: 210px;
+    left: 375px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+.hero-content h1 {
+    margin-top: 150px;
+    width: 521px;
+    height: 210px;
+    top: 410px;
+    left: 375px;
+    background-color: #FEFCFB;
+    align-items: center;
+    text-align: left;
+    font-family: Volkhov;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero-content p {
+    width: 497px;
+    height: 120px;
+    top: 452px;
+    left: 375px;
+    background-color: #fcfbfe;
+    padding-bottom: 40px;
+    align-items: center;
+    margin-right: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: Poppins;
+}
+
+.hero-pic {
+
+
+    background-color: #FEFCFB;
+
+}
+
+.cta-button1 {
+    display: inline-block;
+
+    background-color: white;
+    ;
+    color: #FA7436;
+    padding: 20px;
+
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #FA7436;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    width: 178px;
+    height: 60px;
+    top: 636px;
+    left: 375px;
+
+    gap: 10px;
+}
+
+/* navigation section */
+
+.content-nav {
+    display: flex;
+    row-gap: 60px;
+    margin-left: 100px;
+    padding: 10px 10px;
+
+
+
+}
+
+.fa-angle-down {
+    color: #FD8D3A;
+}
+
+.nav-location {
+    padding: 40px;
+    margin-left: 70px;
+
+}
+
+
+.nav-date {
+    padding-top: 40px;
+    margin-left: 70px;
+
+
+}
+
+
+.nav-guest {
+
+    padding-top: 40px;
+    margin-left: 70px;
+
+
+}
+
+.cta-button2 {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    width: 165px;
+    height: 60px;
+    top: 787px;
+    left: 1192px;
+    text-decoration: none;
+    text-align: center;
+    gap: 60px;
+    border-radius: 5px 0px 0px 0px;
+    background: #FA7436;
+}
+
+.things-todo {
+
+
+    padding: 50px 0;
+    background-color: rgba(247, 248, 252, 1);
+
+}
+
+.what-todo {
+
+
+
+    border-radius: 8px 0px 0px 0px;
+    align-content: center;
+    position: relative;
+
+}
+
+.travel-contents h1 {
+
+    left: 699px;
+    padding-bottom: 1px;
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+
+}
+
+.travel-contents p {
+
+
+    left: 718px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 370;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+.image-box {
+    position: absolute;
+    left: 850px;
+    bottom: 53px;
+    top: 20px;
+}
+
+.image-money {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 100px;
+
+}
+
+.content-picture {
+    padding: 2rem;
+    text-align: center;
+    background-color: #FEFCFB;
+
+}
+
+.content-picture h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+
+
+}
+
+.content-picture p {
+    font-size: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.discount {
+    padding: 50px 0;
+    background-color: #FEFCFB;
+}
+
+.discount-content h2 {
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+
+}
+
+.discount-content p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 370;
+    line-height: 32px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-clip: border-box;
+    padding: 2.3rem;
+    margin-right: 30px;
+    position: relative;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+}
+
+.card-offer {
+    background-color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 4PX 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.card-offer h3 {
+    padding: 20px;
+    font-size: medium;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+
+}
+
+.card-offer p {
+
+    font-size: smaller;
+    word-spacing: 10px;
+
+}
+
+.cta-buttonimage {
+    position: absolute;
+    background-color: #FA7436;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgba(247, 248, 252, 1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 160px;
+    right: 660px;
+
+}
+
+.Btn-1 {
+    position: absolute;
+    top: 100%;
+}
+
+.Btn-2 {
+    position: absolute;
+    top: 100%;
+    left: 55%;
+
+}
+
+.vacation {
+    padding: 50px 0;
+    background-color: #FEFCFB;
+    position: relative;
+}
+
+.vacation-content h2 {
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    position: relative;
+}
+
+.vacation-content p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 70;
+    line-height: 32px;
+    text-align: center;
+}
+
+.vacation-image {
+    position: absolute;
+    right: 20%;
+    bottom: 80%;
+}
+
+.Btn-3 {
+    position: absolute;
+    left: 73%;
+
+    bottom: 67%;
+
+}
+
+.Btn-4 {
+    position: absolute;
+    left: 930px;
+
+
+}
+
+.card-plan {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-clip: border-box;
+    padding: 40px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.image {
+    width: 300%;
+    height: auto;
+}
+
+.card-vacation {
+    background-color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 4PX 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+.card-vacation h3 {
+    padding: 20px;
+    font-size: medium;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+
+}
+
+.card-vacation p {
+
+    font-size: smaller;
+    word-spacing: 5px;
+
+}
+
+.people-say {
+
+    padding: 4px 0;
+    background-color: #F7F8FC;
+    position: relative;
+}
+
+.people-content h2 {
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.people-content p {
+    padding-top: 15px;
+    font-size: smaller;
+    word-spacing: 5px;
+    padding-left: 20px;
+}
+
+.people-say {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-clip: border-box;
+    padding:40px;
+    
+    position: relative;
+
+}
+
+.people-review {
+    padding: 25px;
+    position:relative;
+}
+
+.people-contentainer {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 40px;
+    border: 1px solid transparent;
+    box-shadow: 0 4PX 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+
+}
+
+.people-ceo {
+
+    position: relative;
+    background-color: #fff;
+    width: 330px;
+    height: 143px;
+    border-radius: 10px;
+    transform: scaleX(1.2) scaleY(1.5);
+    font-size: smaller;
+    position: absolute;
+    top: 70px;
+    box-shadow: 0 4PX 8px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+
+}
+
+.people-ceo p {
+    padding-top: 5px;
+    font-size: smaller;
+}
+
+.people-ceo1 h2,
+p {
+    font-size: smaller;
+    padding-top: 20px;
+
+}
+.peopleimage{
+    position: absolute;
+   left:590px;
+   top:6px;
+   
+}
+
+.update {
+    padding: 50px 0;
+    background-color: #FEFCFB;
+    
+}
+
+.update-content h2 {
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 500;
+   
+    text-align: center;
+   
+   
+}
+
+
+
+.update-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+
+
+.update-container p {
+
+    font-size: medium;
+    line-height: 3px;
+    font-family: Poppins; 
+    
+}
+.subscribe{
+    padding: 50px 0;
+    margin-right:270px;
+    margin-bottom: 20px; 
+    width:1200;
+    height:430px;
+    
+   
+}
+.sub-deal{
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+}
+
+.sub-offer{
+    position:absolute;
+    background-color:#FD8D3A ;
+    border-radius: 20px;
+    text-align:center;
+    right:4px;
+    width:897px;
+    height:220px;
+    
+   
+}
+
+.subscribe-content{
+    font-family: Volkhov;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: center;
+    padding-top:20px;
+   
+}
+.subscribe-button{
+    width: 98px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FA7436;
+}
+.email-input{
+    font-size: 20px; 
+    color: #888888;  
+    font-weight: bold;
+}
+
+.sub-tree{
+    position: absolute;
+    right:20px;
+}
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.footer-col{
+    margin-top:0;
+}
+.footer-col{
+ 
+font-size :16px;
+font-weight: 300;
+line-height:2px;
+
+}
+
+.footer-company h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    padding-left: 32px;
+}
+ .footer-company li{
+  
+    list-style: none;
+    
+}
+.fa-brands{
+   
+    padding-top:25px;
+    margin-right: 15px;
+    font-size:24px;
+    padding-bottom: 30px;
+    
+
+}
+ .footer-company li a{
+    text-decoration: none;
+    text-align: center;
+    color:#666666;
+    line-height:2px;
+    font-size:12px ;
+ }
+
+ .footer-end{
+    display: flex;
+    justify-content:space-around;
+ }
